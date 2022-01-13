@@ -1,0 +1,23 @@
+1_labeled_data.csv
+    ,count,hate_speech,offensive_language,neither,class,tweet
+    from https://hatespeechdata.com/
+    https://github.com/t-davidson/hate-speech-and-offensive-language
+2_CONAN.csv
+    cn_id,hateSpeech,counterSpeech,hsType,hsSubType,cnType,age,gender,educationLevel
+    from https://hatespeechdata.com/
+    https://github.com/marcoguerini/CONAN
+    multilingual
+3_en_dataset_with_stop_words.csv
+    HITId,tweet,sentiment,directness,annotator_sentiment,target,group
+    from https://hatespeechdata.com/
+    https://github.com/HKUST-KnowComp/MLMA_hate_speech
+4_harassment-corpus.csv
+    Sexual,Racial,Appearance,Intelligence,Politics,Generic
+    from https://hatespeechdata.com/
+    https://github.com/Mrezvan94/Harassment-Corpus
+    only keywords
+5_train.csv
+    "id","comment_text","toxic","severe_toxic","obscene","threat","insult","identity_hate"
+    from Skadi
+    https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data?select=train.csv.zip
+    training dataset from a kaggle competition, wikipedia data
