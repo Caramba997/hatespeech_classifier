@@ -2,11 +2,6 @@
     ,count,hate_speech,offensive_language,neither,class,tweet
     from https://hatespeechdata.com/
     https://github.com/t-davidson/hate-speech-and-offensive-language
-2_CONAN.csv
-    cn_id,hateSpeech,counterSpeech,hsType,hsSubType,cnType,age,gender,educationLevel
-    from https://hatespeechdata.com/
-    https://github.com/marcoguerini/CONAN
-    multilingual
 3_en_dataset_with_stop_words.csv
     HITId,tweet,sentiment,directness,annotator_sentiment,target,group
     from https://hatespeechdata.com/
@@ -21,3 +16,8 @@
     from Skadi
     https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data?select=train.csv.zip
     training dataset from a kaggle competition, wikipedia data
+6_NAACL_SRW_2016.csv
+    id,class
+    from https://hatespeechdata.com/
+    https://github.com/zeeraktalat/hatespeech
+    Twitter IDs
