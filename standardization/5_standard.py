@@ -18,6 +18,6 @@ for idx, item in df.iterrows():
         is_hatespeech = 1
         st.add(1, item['comment_text'], 'origin')
     if is_hatespeech == 0:
-        st.add(1, item['comment_text'], 'other')
+        st.add(0, item['comment_text'], 'other')
         
 st.export('5')
