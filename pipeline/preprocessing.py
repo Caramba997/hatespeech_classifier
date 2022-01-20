@@ -50,5 +50,5 @@ def csvRemoveStopwords(fileNumber):
         df.at[idx, 'text'] = processString(removeStopWords(item['text']))
     df.to_csv('datasets/' + fileNumber + '_no_stopwords.csv', index=False)
 
-# processStandardCsv('6')
-csvRemoveStopwords('6')
+# processStandardCsv('5')
+csvRemoveStopwords('5')
