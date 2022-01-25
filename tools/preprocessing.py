@@ -3,6 +3,7 @@ import re
 import pandas as pd
 import nltk
 
+nltk.download('stopwords')
 stopwords = nltk.corpus.stopwords.words('english')
 
 def removePunctuation(str):
@@ -51,4 +52,4 @@ def csvRemoveStopwords(fileNumber):
     df.to_csv('datasets/' + fileNumber + '_no_stopwords.csv', index=False)
 
 # processStandardCsv('5')
-csvRemoveStopwords('5')
+# csvRemoveStopwords('5')
