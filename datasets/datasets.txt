@@ -1,23 +1,31 @@
 1_labeled_data.csv
-    ,count,hate_speech,offensive_language,neither,class,tweet
-    from https://hatespeechdata.com/
-    https://github.com/t-davidson/hate-speech-and-offensive-language
+    FORMAT: ,count,hate_speech,offensive_language,neither,class,tweet
+    FOUND ON: https://hatespeechdata.com/
+    URL: https://github.com/t-davidson/hate-speech-and-offensive-language
 3_en_dataset_with_stop_words.csv
-    HITId,tweet,sentiment,directness,annotator_sentiment,target,group
-    from https://hatespeechdata.com/
-    https://github.com/HKUST-KnowComp/MLMA_hate_speech
+    FORMAT: HITId,tweet,sentiment,directness,annotator_sentiment,target,group
+    FOUND ON: https://hatespeechdata.com/
+    URL: https://github.com/HKUST-KnowComp/MLMA_hate_speech
 4_harassment-corpus.csv
-    Sexual,Racial,Appearance,Intelligence,Politics,Generic
-    from https://hatespeechdata.com/
-    https://github.com/Mrezvan94/Harassment-Corpus
-    only keywords
+    FORMAT: Sexual,Racial,Appearance,Intelligence,Politics,Generic
+    FOUND ON: https://hatespeechdata.com/
+    URL: https://github.com/Mrezvan94/Harassment-Corpus
+    DESCRIPTION: only keywords
 5_train.csv
-    "id","comment_text","toxic","severe_toxic","obscene","threat","insult","identity_hate"
-    from Skadi
-    https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data?select=train.csv.zip
-    training dataset from a kaggle competition, wikipedia data
+    FORMAT: "id","comment_text","toxic","severe_toxic","obscene","threat","insult","identity_hate"
+    RECOMMENDED BY: Skadi
+    URL: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data?select=train.csv.zip
+    DESCRIPTION: training dataset from a kaggle competition, wikipedia data
 6_NAACL_SRW_2016.csv
-    id,class
-    from https://hatespeechdata.com/
-    https://github.com/zeeraktalat/hatespeech
-    Twitter IDs
+    FORMAT: id,class
+    FOUND ON: https://hatespeechdata.com/
+    URL: https://github.com/zeeraktalat/hatespeech
+    DESCRIPTION: Twitter IDs
+7_bad-words.csv
+    FORMAT: word
+    URL: https://www.kaggle.com/nicapotato/bad-bad-words
+    DESCRIPTION: List of bad words
+8_Terms-to-Block.csv
+    FORMAT: word
+    URL: https://www.kaggle.com/sahib12/badwords
+    DESCRIPTION: List of bad words
