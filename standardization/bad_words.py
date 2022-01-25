@@ -19,16 +19,20 @@ for idx, item in df_kw.iterrows():
     kw_vocab.add(item["Generic"])
 print(len(kw_vocab))
 
+df_vocab = set()
 df_kw = pd.read_csv("datasets/7_bad-words.csv")
 for idx, item in df_kw.iterrows():
   kw_vocab.add(item[0])
-print(len(kw_vocab))
+  df_vocab.add(item[0])
+print(len(df_vocab), len(kw_vocab))
 
+df_vocab = set()
 df_kw = pd.read_csv("datasets/8_Terms-to-Block.csv")
 for idx, item in df_kw.iterrows():
   kw_vocab.add(re.sub('"|,', '', item[0]))
-print(len(kw_vocab))
+  df_vocab.add(re.sub('"|,', '', item[0]))
+print(len(df_vocab), len(kw_vocab))
 
 
-df = pd.DataFrame(kw_vocab)
-df.to_csv('datasets/bad_words.csv', index=False)
+# df = pd.DataFrame(kw_vocab)
+# df.to_csv('datasets/bad_words.csv', index=False)
