@@ -58,14 +58,14 @@
         <p class="alert-heading">Result</p>
         <p>Number of Records:{{ num_of_results }}</p>
         <table>
-            <tr>
+            <tr align="left" style="vertical-align: top;">
                 <th>Index</th>
                 <th>Comment</th>
                 <th>    isHatespeech</th>
                 <th>    Class</th>
             </tr>
             {% for i in results %}
-                <tr>
+                <tr align="left" style="vertical-align: top;">
                 {% for j in i %}
                     <td>{{ j }}</td>
                 {% endfor %}

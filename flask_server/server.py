@@ -7,12 +7,12 @@ from reddit_api import RedditWrapper
 app = Flask(__name__)
 
 mul_model = keras.models.load_model(
-    '/Users/oliverwandschneider/dev/PycharmProjects/hatespeech_classifier/models/multi_class_rnn')
+    '/Users/oliverwandschneider/dev/PycharmProjects/hatespeech_classifier/models/multi_class_rnn_other')
 bin_model = keras.models.load_model(
     '/Users/oliverwandschneider/dev/PycharmProjects/hatespeech_classifier/models/binary_class_rnn')
 
 wrapper = RedditWrapper()
-hs_classes = ['racism', 'religion', 'disability', 'sexism', 'sexual orientation']
+hs_classes = ['other', 'racism', 'religion', 'disability', 'sexism', 'sexual orientation']
 
 
 @app.route('/')
